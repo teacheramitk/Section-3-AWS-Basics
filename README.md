@@ -230,7 +230,7 @@ Click on Create Launch template>View Launch templates
 
 Copy the Ip address of all the three Instances one by one and paste it in Internet Browser to see all ec2 instances are running
  
- # End of Lab
+ ### End of Lab
  
  # Auto Scaling & ALB - Lab
 
@@ -263,7 +263,7 @@ Now Click on Update
 **Step 7. Copy the Newly launched Instance's IP address and paste it in the internet browser**
 - It is running 
 
-# End of Lab
+### End of Lab
 
 
 # Auto Scaling & ALB - Lab
@@ -297,7 +297,7 @@ Now Click on Update
 **Step 7. Copy the Newly launched Instance's IP address and paste it in the internet browser**
 - It is running 
 
-# End of Lab
+### End of Lab
 
 # S3 - Lab
 **Step 1. AWS Management Console>All Services>S3>Create Bucket**
@@ -386,7 +386,7 @@ $ aws s3 ls
 ```
 - Above command shows the name of bucket in output
 
-# End of lab
+### End of lab
 
 
 # IAM Roles- Lab
@@ -487,7 +487,7 @@ $ aws s3 ls
 $ aws s3 ls
 ```
 
-# End of lab
+### End of lab
 
 # IAM Policies - Lab
 **Step 1. Goto AWS Console>IAM>IAM Dashboard>Roles>Create Role**
@@ -561,7 +561,7 @@ Now able to see the s3 details
 }
 ```
 
-# End of lab
+### End of lab
 
 
 # VPC : Default Configurations - Lab
@@ -616,7 +616,7 @@ Click on Region and change it to US East(N.Virginia) us-east-1
 **Step 9. Goto AWS Console>Services>VPC>Internet Gateways**  
 - 1 Internet Gateway attached to Default VPC
 
-# End of lab
+### End of lab
 
 
 
@@ -701,7 +701,9 @@ Click on Save routes and click on Close
 
 Click on Save
 
-Now Auto-assign public IPv4 address has YES entry.
+Now Auto-assign public IPv4 address has YES entry
+
+### End of Lab
 
 # VPC & EC2 - Lab
 
@@ -784,7 +786,7 @@ Click on Launch Instances
 **Step 13. EC2Dashboard>Private instance** 
 - No Public Ipv4 address
 
-# End of Lab
+### End of Lab
 
 # Cloudwatch Alarm- Lab
 
@@ -859,7 +861,7 @@ Click on Create alarm
 CPUUtilization was below 40 percent and CloudWatch stopped it.
 
 
-# End of lab
+### End of lab
 
 
 # Cloudwatch Event- Lab
@@ -916,7 +918,7 @@ Click on Create rule.
   - CloudWatch will send the notification to SNS Topic
   - Check for Notification in Email inbox
  
- # End of lab
+ ### End of lab
 
 
 # DynamoDB - Conceptual Walkthrough & Lab
@@ -988,7 +990,7 @@ Click on Create
  **Step 8. Goto Movies>Delete Table>delete**
  - Table has been deleted
 
-# End of lab
+### End of lab
 
 
 # Elastic Beanstalk : Components - Lab
@@ -1098,7 +1100,7 @@ Click on Go to environment to see sample application running
   
   
   
-  # End of Lab
+  ### End of Lab
   
 
 # Elastic Beanstalk : Modify & Deploy Sample NodeJS App - Lab
@@ -1138,7 +1140,7 @@ zip -r dir.zip . -x "_MACOSX"
  **Step 11. Elastic BeanStalk>Applications>MyfirstEbsapp>Actions>Create Environment>Web server environment**
  - Select Web server environment to create new environment from this application
  
-# End of Lab
+### End of Lab
 
 
 # Section Clean-up - Lab
@@ -1172,7 +1174,7 @@ zip -r dir.zip . -x "_MACOSX"
 - Click on Delete
 - Note All the resources apart from S3 Bucket that application deployment had created, will be deleted
 
-# End of Lab
+### End of Lab
 
 
 
