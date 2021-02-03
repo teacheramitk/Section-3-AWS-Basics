@@ -179,7 +179,7 @@ Click on Create Launch template>View Launch templates
 **Step 3. Select "MyFirstTemplate" Goto Actions>Create Auto Scaling group**
 
 **Step 4. Give name "MyFirstASG" in Auto Scaling group name**
- Click on Next
+ - Click on Next
  
  **Step 5. Network**
  - VPC-default
@@ -632,6 +632,7 @@ Click on Region and change it to US East(N.Virginia) us-east-1
 **Step 2. VPC has been created successfully**
 
 **Step 3. Goto VPC>Subnets>Create Subnet**
+
 Give following details
 - VPC ID - default vpc
 - Subnet name - PubSub
@@ -641,6 +642,7 @@ Give following details
 Click on Create Subnet
 
 **Step 4. Goto VPC>Subnets>Create Subnet**
+
 Give following details
 - VPC ID - CustVPC
 - Subnet name - PvtSub
@@ -690,6 +692,7 @@ Click on Create Internet Gateway
 - Now CustRTCustVPC is associated with PubSub 
 
 **Step 16. Goto AWS Console>Services>VPC>Route Table>CustRTCustVPC>Routes>Edit routes>Add route**
+
 Give the following details.
 - Destination - 0.0.0.0/0
 - Target - Internet Gateway
@@ -894,6 +897,7 @@ Click on create subscription
 - See that status is Confirmed of Topic MyFirstTopic
 
 **Step 6. CloudWatch>Events>Rules>Create Rule**
+
 In Event Source -
 - Select - Event Pattern
   - Service Name - Ec2
